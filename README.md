@@ -1,6 +1,6 @@
 # ShomserVai - An AI Chat Assistant
 
-ShomserVai is an AI Chat Assistant that can be used to response your questions. ShomserVai is developed upon pai-001-chatbot-framework by Baidu, a leading Chinese technology company. 
+ShomserVai is an AI Chat Assistant that can be used to response your questions. ShomserVai is developed upon `pai-001` chatbot-framework by Baidu, a leading Chinese technology company. 
 
 
 ## Features
