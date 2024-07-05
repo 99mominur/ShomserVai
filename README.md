@@ -32,11 +32,11 @@ ShomserVai is an AI Chat Assistant that can be used to response your questions. 
         "PORT": 3306,
         
     }
-}```
+}
 
  - Run `python manage.py makemigrations`
  - Run `python manage.py migrate`
- - Get an free API-KEY from [here](https://discord.gg/pawan) in `Bot` Channel and change `Openai.api.api_key` in `views.py` of `Bot App` using `/key` command 
+ - Get an free API-KEY from [here](https://discord.gg/pawan) in `Bot` Channel and change `Openai.api_key` in `views.py` of `Bot App` using `/key` command 
 
 ```python
     openai.api_key = "Your API Key"
