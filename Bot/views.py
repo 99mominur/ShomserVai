@@ -11,20 +11,23 @@ from django.utils import timezone
 openai.api_base = "https://api.pawan.krd/pai-001/v1"
 
 
-openai.api_key = "pk-zRsLYEGrYupXnlIePhinZjlRSIETrmuBQUFyaNWjrUxxnXkG"
+openai.api_key = "Your API Key"
 
 
 def ask_openai(request, question):
     chats = Chat.objects.filter(user=request.user)[0:10]
     messages = []
-    temp = {"role": "system", "content": "You are a helpful assistant."}
+    temp = {
+        "role": "system",
+        "content": "You are a helpful assistant. Your name is ShomserVai.",
+    }
     messages.append(temp)
     for chat in chats:
         temp = {"role": "user", "content": chat.question}
-        print(temp)
+        # print(temp)
         messages.append(temp)
         temp = {"role": "assistant", "content": chat.response}
-        print(temp)
+        # print(temp)
         messages.append(temp)
     messages.append(
         {

@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ShomserVai_db',
-        "USER": "mominur",
-        "PASSWORD": "99mominur",
+        "USER": "your mysql username",
+        "PASSWORD": "your password",
         "HOST": "localhost",
         "PORT": 3306,
         
