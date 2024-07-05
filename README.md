@@ -11,7 +11,7 @@ ShomserVai is an AI Chat Assistant that can be used to response your questions. 
 - login
 - Logout
 
-## Screenshot
+## Screenshots
 ### Home page
 ![Example Image](https://github.com/99mominur/ShomserVai/blob/main/Images/127-0-0-1-8000.png)
 ### Register page
